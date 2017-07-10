@@ -1,7 +1,7 @@
 export default {
   namespace: 'todoList',
   state: {
-    todoList: ['旅游'],
+    todoList: [],
     current:''
   },
   reducers: {
@@ -18,8 +18,18 @@ export default {
     change(state, {payload:{todo}}){
       state.current=todo;
       return {...state}
+    },
+    clear(state ){
+      state.current='';
+      return {...state}
+    },
+  },
+  effects: {
+    *create({payload:{todo}},{select,call,put}){
+      const current=yield select(state=>state.todoList.current);//该state是全局state
+      yield console.log('当前添加的数据:'+current);
+      yield put({type:'clear'})
     }
   },
-  effects: {},
   subscriptions: {},
 };

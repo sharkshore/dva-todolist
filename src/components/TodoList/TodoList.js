@@ -22,7 +22,7 @@ function TodoList({dispatch, todoList}) {
     <div >
       <div>
         <form onSubmit={create.bind(this, todoList.current)}>
-          <input type="text" onChange={event => change(event.target.value)}/>
+          <input type="text" onChange={event => change(event.target.value)} value={todoList.current}/>
           <button type="submit">添加</button>
         </form>
       </div>
