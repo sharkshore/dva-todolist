@@ -1,3 +1,4 @@
+import key from 'keymaster';
 export default {
   namespace: 'todoList',
   state: {
@@ -23,6 +24,9 @@ export default {
       state.current='';
       return {...state}
     },
+    show(state){
+      alert('当前数据为:'+state.current);
+    }
   },
   effects: {
     *create({payload:{todo}},{select,call,put}){
@@ -31,5 +35,11 @@ export default {
       yield put({type:'clear'})
     }
   },
-  subscriptions: {},
+  subscriptions: {
+    keyboardWatcher({dispatch}) {
+      key('ctrl+up', () => {
+        dispatch({type: 'show'})
+      });
+    },//订阅键盘按键
+  },
 };

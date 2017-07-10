@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cba8c1d9-0e1d-44cf-8b9a-55faf8c97125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/todoList.js" afterPath="$PROJECT_DIR$/src/models/todoList.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,8 +46,8 @@
       <file leaf-file-name="todoList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/models/todoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="620">
+              <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -87,8 +86,8 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/routes/IndexPage.js" />
         <option value="$PROJECT_DIR$/src/components/TodoList/TodoList.css" />
-        <option value="$PROJECT_DIR$/src/models/todoList.js" />
         <option value="$PROJECT_DIR$/src/components/TodoList/TodoList.js" />
+        <option value="$PROJECT_DIR$/src/models/todoList.js" />
       </list>
     </option>
   </component>
@@ -293,12 +292,12 @@
       <option name="presentableId" value="Default" />
       <updated>1499667697952</updated>
       <workItem from="1499667701231" duration="8456000" />
-      <workItem from="1499677772597" duration="852000" />
+      <workItem from="1499677772597" duration="1260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9308000" />
+    <option name="totallyTimeSpent" value="9716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -420,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/todoList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="620">
+          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding />
         </state>
       </provider>
